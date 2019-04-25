@@ -18,3 +18,5 @@ def speak_to_grandma(input = "Lets party")
 puts "HUH?! SPEAK UP, SONNY!"
 
 end
+
+puts speak_to_grandma()
