@@ -11,3 +11,10 @@
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+
+
+def speak_to_grandma(input = "Lets party")
+  input = gets.chomp
+puts "HUH?! SPEAK UP, SONNY!"
+  
+end
