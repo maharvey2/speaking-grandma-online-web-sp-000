@@ -15,7 +15,7 @@ puts "Talk to grandma"
 @input = gets.chomp
 
 
-def speak_to_grandma(input)
+def speak_to_grandma(@input)
   #input = gets.chomp
   if speak_to_grandma(input)
     puts "HUH?! SPEAK UP, SONNY!"
