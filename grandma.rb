@@ -19,7 +19,7 @@ def speak_to_grandma(input = "")
     puts "HUH?! SPEAK UP, SONNY!"
   end
 elsif speak_to_grandma
-  
+
 
 
 end
