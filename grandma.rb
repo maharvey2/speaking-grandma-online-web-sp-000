@@ -18,9 +18,8 @@ def speak_to_grandma(input = "")
   if speak_to_grandma(input = "")
     puts "HUH?! SPEAK UP, SONNY!"
   end
-elsif speak_to_grandma
-
-
+elsif speak_to_grandma(input = "")
+puts "NO, NOT SINCE 1938!"
 
 end
 
