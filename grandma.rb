@@ -22,4 +22,4 @@ elsif speak_to_grandma(input)
   puts "NO, NOT SINCE 1938!"
   end
 end
-puts speak_to_grandma()
+puts speak_to_grandma(input)
