@@ -13,7 +13,7 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 
-def speak_to_grandma(input= "")
+def speak_to_grandma(input, grandma)
   input = gets.chomp
   if speak_to_grandma(grandma)
     puts "HUH?! SPEAK UP, SONNY!"
