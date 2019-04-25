@@ -15,12 +15,11 @@
 
 def speak_to_grandma(input = "")
   input = gets.chomp
-  if speak_to_grandma(input = "")
+  if speak_to_grandma(input)
     puts "HUH?! SPEAK UP, SONNY!"
   end
-elsif speak_to_grandma(input = "")
-puts "NO, NOT SINCE 1938!"
-
-end
+elsif speak_to_grandma(input)
+  puts "NO, NOT SINCE 1938!"
+  end
 end
 puts speak_to_grandma()
