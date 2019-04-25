@@ -12,12 +12,14 @@
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
 puts "Talk to grandma"
-input = gets
-def speak_to_grandma(input = "")
-  input = gets.chomp
-  if speak_to_grandma(input)
+@input = gets.chomp
+
+
+def speak_to_grandma(@input)
+  #input = gets.chomp
+  if speak_to_grandma(@input)
     puts "HUH?! SPEAK UP, SONNY!"
-  elsif speak_to_grandma(input)
+  elsif speak_to_grandma(@input)
     puts "NO, NOT SINCE 1938!"
   end
 end
