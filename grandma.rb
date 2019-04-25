@@ -15,7 +15,7 @@
 
 def speak_to_grandma(input = "")
   input = gets.chomp
-  if speak_to_grandma(grandma)
+  if speak_to_grandma(input = "")
     puts "HUH?! SPEAK UP, SONNY!"
   end
 elsif speak_to_grandma
