@@ -15,7 +15,11 @@
 
 def speak_to_grandma(input= "")
   input = gets.chomp
-puts "HUH?! SPEAK UP, SONNY!"
+  if speak_to_grandma(grandma)
+    puts "HUH?! SPEAK UP, SONNY!"
+  end
+
+
 
 end
 
